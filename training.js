@@ -17,7 +17,7 @@ console.log('evolved test:', evolved)
 
 function train () {
   console.log('Training!')
-  setup()
+  setupBrain()
 
   while (brain.steps < 100000) {
     const predictions = predictMovies(brain.network, movies)

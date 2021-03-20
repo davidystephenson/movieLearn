@@ -1,6 +1,6 @@
 const brain = {}
 
-function setup () {
+function setupBrain () {
   brain.network = [
     [0, 0, 0], // axons, weights
     [0, 0, 0],
@@ -9,7 +9,7 @@ function setup () {
 
   brain.steps = 0
 }
-setup()
+setupBrain()
 
 table('Network', brain.network)
 
